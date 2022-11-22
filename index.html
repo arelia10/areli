@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="header-nav">
+            <div class="header-nav__container">
+                <a href="#" class="header-nav__link-logo-container">
+                    <img src="./assets/images/foto_logo.png" alt="Logo Elliot Garamendi"
+                        class="header-nav__link-logo" />
+                </a>
+                <label for="headerNavMenuIcon" class="header-nav__menu-icon-label">
+                    <i class="bi bi-list"></i>
+                </label>
+                <input type="checkbox" id="headerNavMenuIcon" class="header-nav__menu-icon-checkbox" />
+                <ul class="header-nav__menu-link-list">
+                    <li class="header-nav__menu-link-item">
+                        <a href="#" class="header-nav__menu-link">Presentación</a>
+                    </li>
+                    <li class="header-nav__menu-link-item">
+                        <a href="#family" class="header-nav__menu-link">Familia</a>
+                    </li>
+                    <li class="header-nav__menu-link-item">
+                        <a href="#study" class="header-nav__menu-link">Estudios</a>
+                    </li>
+                    <li class="header-nav__menu-link-item">
+                        <a href="#contact" class="header-nav__menu-link header-nav__menu-link--active">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="profile">
+            <div class="profile__container">
+                <div class="profile__info">
+                    <h2 class="profile__info-title">Jeanfranco Lazarinos Armendariz</h2>
+                    <h1 class="profile__info-subtitle">Frontend Devoloper</h1>
+                    <p class="profile__info-description">Soy un estudiande del curso de desarrollo web Frontend de
+                        Certus; me encanta la música y los instrumentos a los que me dedico son el piano y la trompeta.
+                    </p>
+                    <div class="profile__info-link-container">
+                        <a href="https://github.com/JFranco-LA" target="_blank" class="profile__info-link">Github</a>
+                        <a href="https://www.linkedin.com/in/jeanla/" target="_blank"
+                            class="profile__info-link">Linkedin</a>
+                    </div>
+                </div>
+                <div class="profile__figure">
+                    <figure class="profile__figure-image-container">
+                        <img src="./assets/images/foto_yo.jpg" alt="Jeanfranco_foto" class="profile__figure-image" />
+                        <img src="./assets/svg/logo-html-5.svg" alt="HTML" class="profile__figure-tech-one">
+                        <img src="./assets/svg/logo-css-3.svg" alt="CSS" class="profile__figure-tech-two">
+                        <img src="./assets/svg/logo-javascript.svg" alt="JavaScript" class="profile__figure-tech-three">
+                        <img src="./assets/svg/logo-bootstrap.svg" alt="React" class="profile__figure-tech-four">
+                    </figure>
+                </div>
+            </div>
+        </article>
+
+
+
+        <section class="family" id="family">
+            <div class="family__container">
+                <h2 class="family__title">Mi familia</h2>
+                <ul class="family__family-list">
+                    <li class="family__family-item">
+                        <h4 class="family__item-date">Mi papá</h4>
+                        <h3 class="family__item-name">Moises Lazarinos Mestas</h3>
+                        <h4 class="family__item-role">Músico</h4>
+                        <ul class="family__item-activities">
+                            <li class="family__item-activity">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                In ut porro nulla tempore itaque minima, hic facilis. Magnam numquam nesciunt
+                                architecto
+                                blanditiis accusantium deleniti, possimus laborum dignissimos cupiditate iste id?
+                            </li>
+                            <li class="family__item-activity">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Laborum ipsam enim quae reprehenderit adipisci minus qui aliquam non saepe
+                                molestias! Ab
+                                a quod earum soluta amet expedita commodi atque repellat.</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li class="family__family-item">
+                        <h4 class="family__item-date">Mi mamá</h4>
+                        <h3 class="family__item-name">Juliana Armendariz Puma</h3>
+                        <h4 class="family__item-role">Manager</h4>
+                        <ul class="family__item-activities">
+                            <li class="family__item-activity">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                In ut porro nulla tempore itaque minima, hic facilis. Magnam numquam nesciunt
+                                architecto
+                                blanditiis accusantium deleniti, possimus laborum dignissimos cupiditate iste id?
+                            </li>
+                            <li class="family__item-activity">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Laborum ipsam enim quae reprehenderit adipisci minus qui aliquam non saepe
+                                molestias! Ab
+                                a quod earum soluta amet expedita commodi atque repellat.</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li class="family__family-item">
+                        <h4 class="family__item-date">Mi hermana</h4>
+                        <h3 class="family__item-name">Dahaly Lazarinos Armendariz</h3>
+                        <h4 class="family__item-role">Cantante</h4>
+                        <ul class="family__item-activities">
+                            <li class="family__item-activity">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                In ut porro nulla tempore itaque minima, hic facilis. Magnam numquam nesciunt
+                                architecto
+                                blanditiis accusantium deleniti, possimus laborum dignissimos cupiditate iste id?
+                            </li>
+                            <li class="family__item-activity">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Laborum ipsam enim quae reprehenderit adipisci minus qui aliquam non saepe
+                                molestias! Ab
+                                a quod earum soluta amet expedita commodi atque repellat.</li>
+                        </ul>
+                    </li>
+            </div>
+
+        </section>
+
+        <section class="study" id="study">
+            <div class="study__container">
+                <article class="study_info">
+                    <img src="https://diariocorreo.pe/resizer/olP6alvWtaoczYqjFja-9nlct-E=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/BMXZ4UA6BBDNRDLG77TTYP76UY.jpg"
+                        alt="study">
+                    <div>
+                        <h2>INSTITUTO SUPERIOR PEDRO DE DIAZ</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut recusandae rerum illum porro
+                            earum eligendi officiis quo, quidem esse tempora, repudiandae doloremque, tempore odio sed
+                            maiores voluptates voluptate incidunt consequatur?</p>
+                    </div>
+                </article>
+            </div>
+            <div class="study__container">
+                <article class="study_info">
+                    <img src="https://1.bp.blogspot.com/-PN3Hr8lNCdU/WBvP_gtfUnI/AAAAAAAA2Ms/PIJ6VvDtFO8M6fHwymZAFeCWQCD8-h0MwCLcB/s1600/ie-marianista-hunter2.jpg"
+                        alt="study">
+                    <div>
+                        <h2 class="study_info_title">INSTITUTO EDUCATIVA PARTICULAR MARIANISTA</h2>
+                        <p class="study_info_subtitle">Lorem ipsum, dolor sit amet serts consectetur adipisicing elit.
+                            Ut recusandae rerum illum porro earum eligendi officiis quo, quidem esse tempora,
+                            repudiandae doloremque, tempore odio sed maiores voluptates voluptate incidunt consequatur?
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="formulario-container">
+                <article class="info">
+                    <div class="message">
+                        <h2>Hola mi nombre es Jeanfranco Lazarinos A.</h2>
+                        <p>Utiliza éste formulario para comunicarte conmigo a traves de mi Correo, si no enviame un mensaje a whatsapp directo</p>
+                        <button class="link-btn">
+                            <i class="bx bxl-whatsapp"'></i>My whatsapp
+            </button>
+        </div>
+    </article>
+
+    <form class="formulario">
+        <h2 class="">Enviame un mensaje</h2>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <textarea name="mesagge" cols="30" rows="6">escribir mensaje</textarea>
+            <button>Enviar</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h4>Pagina realizada por Jeanfranco Lazarinos Armendariz</h4>
+
+        <p id="date"></p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

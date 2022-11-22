@@ -1,0 +1,62 @@
+.family {
+    background-image: url(../assets/images/familiafeliz.jpg);
+    padding: var(--padding-section);
+}
+
+.family__container {
+    background-color: rgba(84, 86, 97, 0.534);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: var(--max-width-container);
+    margin: auto;
+    padding: 2rem;
+}
+
+.family__title {
+    font-size: 2rem;
+    text-shadow: 0 0 0.25rem var(--primary-highlight-color);
+    margin: 0;
+  }
+  
+  .family__family-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .family__family-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+  
+  .family__item-date {
+    text-shadow: 0 0 0.125rem var(--primary-highlight-color);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .family__item-name {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .family__item-role {
+    text-shadow: 0 0 0.125rem var(--primary-highlight-color);
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .family__item-activities {
+    margin: 0;
+  }
+  
+  .family__item-activity {
+    list-style: square;
+  }
